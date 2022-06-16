@@ -1,0 +1,102 @@
+<html>
+	<head>
+    <title>자기소개 페이지</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./introduce.css"/>
+	</head>
+    <script type="text/javascript">
+      function focusMain() {
+        document.getElementById("main").scrollIntoView()
+      }
+      function focusAboutMe() {
+        document.getElementById("aboutMe").scrollIntoView()
+      }
+      function focusFavorite() {
+        document.getElementById("favorite").scrollIntoView()
+      }
+      function focusPictures() {
+        document.getElementById("pictures").scrollIntoView()
+      }
+    </script>
+    <div id="pageTopBar">
+      <div id="menuTab">
+        <input type="button" value="Main" onclick="focusMain()" id="btn"/>
+        <input type="button" value="About me" onclick="focusAboutMe()" id="btn"/>
+        <input type="button" value="Favorite" onclick="focusFavorite()" id="btn"/>
+        <input type="button" value="Picture" onclick="focusPictures()" id="btn"/>
+      </div>
+    </div>
+    <div class="FrameBox">
+      <div id="leftFrame">
+        <div class="mePic">
+          <img alt="" class="mePic" src="./me.jpg"/>
+        </div>
+        <div class="name">
+          권영준
+        </div>
+        <div class="introduce">
+          010-4738-6249
+        </div>
+        <a href= https://github.com/selp0100
+          class="introduce"
+        >
+        https://github.com/selp0100
+        </a>
+        <div class="introduce">
+          yonng000@gmail.com
+        </div>
+        <div class="line"></div>
+      </div>
+      <div id="centerFrame" class="centerFrame">
+        <div class="postBox" id="main">
+          <img class="picture" id="mainPicture" src="./trainMe.jpeg">
+          <div class="introduction">
+            앞으로 함께할 여러분들 안녕하세요 반갑습니다 ^^</br>
+            프론트엔드 개발자를 목표로 준비하고있는</br>
+            36기 수강생 권영준입니다!</br>
+            저는 많이 아는게없고 부족하지만</br>
+            열심히 같이 배워나가도록 하겠습니다ㅎㅎ</br>
+            서로 상부상조하며 열심히해요!
+          </div>
+        </div>
+        <div class="postBox" id="aboutMe">
+          <div class="postHead">About me</div>
+          <div class="pictureAndComment">
+            <img class="symbol" src="./htmlImg.png"/>
+            <img class="symbol" src="./reactImg.png"/>
+            <img class="symbol" src="./cssImg.png"/>
+            <img class="symbol" src="./jsImage.png"/>
+            <div class="comment">할줄아는 기술들! 잘하지는못하지만..</div>
+          </div>
+        </div>
+        <div class="postBox" id="favorite">
+          <div class="postHead">Favorite</div>
+          <div class="pictureAndComment">
+            <img class="picture" src="./unknown.png">
+            <div class="comment">가끔 이런 그림들 그릴때도있고</div>
+          </div>
+          <div class="pictureAndComment">
+            <img class="picture" src="./favorite.jpeg">
+            <div class="comment">예전에 작곡/편곡 일 잠깐했었고 </br> 지금은 취미입니다 :)</div>
+          </div>
+          <div class="pictureAndComment">
+            <img class="picture" src="./flower.jpeg">
+            <div class="comment">꽃도 좋아해서 가끔 관련축제나 </br> 놀러가서 구경하러 다니기도해요</div>
+          </div>
+            <div class="pictureAndComment">
+            <img class="picture" src="./dog.jpeg">
+            <div class="comment">집에서 키우는 강아지 초코입니다 ㅎㅅㅎ</div>
+          </div>
+        </div>
+        <div class="postBox" id="pictures">
+          <div class="postHead">Picture</div>
+          <img class="picture" src="./Me2.jpeg">
+          <img class="picture" src="./seaME.jpeg">
+          <img class="picture" src="./seaMe2.jpeg">
+          <img class="picture" src="./streetME.jpeg">
+        </div>
+      </div>
+  </div>
+</html>
